@@ -2,8 +2,8 @@ from datetime import datetime
 import ctypes
 import sys
   
-LOGIN = seu email
-SENHA = sua senha
+LOGIN = ('seu email/e-mail')
+SENHA = ('sua senha/pass')
   
 def Mbox(title, text, style):
     return ctypes.windll.user32.MessageBoxW(0, text, title, style)
